@@ -2,7 +2,7 @@ import json
 import allure
 import requests
 from pydantic import ValidationError
-from utilities.rest_client import RestClient
+from restclient.rest_client import RestClient
 from dm_api_account.models import RegistrationModel, UserEnvelopeModel, ChangePasswordModel
 
 

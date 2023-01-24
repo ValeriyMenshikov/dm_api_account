@@ -1,6 +1,6 @@
 import allure
 import requests
-from utilities.rest_client import RestClient
+from restclient.rest_client import RestClient
 
 
 class LoginApi:
